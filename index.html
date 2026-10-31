@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FF BUG STORE</title>
+<style>
+:root{color-scheme:dark;--bg:#09060f;--panel:#171020;--purple:#a855f7;--pink:#d8a5ff;--muted:#b9a9c9}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:radial-gradient(ellipse at top,#32104f 0,#100919 42%,var(--bg) 78%);color:#fff;min-height:100vh}
+main{width:min(560px,92%);margin:0 auto;padding:32px 0 48px}
+header{text-align:center;padding:22px 10px 26px}
+.logo{font-size:clamp(30px,8vw,46px);font-weight:900;letter-spacing:1px;color:#e6c8ff;text-shadow:0 0 8px #a855f7,0 0 25px #8b32d4}
+.tag{color:var(--muted);letter-spacing:3px;font-size:11px;margin-top:8px}
+.card{background:linear-gradient(150deg,rgba(39,23,55,.97),rgba(17,12,25,.98));border:1px solid #67369a;border-radius:22px;padding:24px;box-shadow:0 0 35px #7e22ce25}
+.pill{display:inline-block;background:#3a1858;color:#e9d5ff;border:1px solid #8b5cf6;border-radius:999px;padding:7px 12px;font-size:11px;font-weight:bold;letter-spacing:1px}
+h1{font-size:25px;margin:18px 0 8px}
+.desc{color:var(--muted);line-height:1.55;font-size:14px}
+.price{font-size:42px;font-weight:900;color:#e9c9ff;margin:22px 0 4px;text-shadow:0 0 18px #9333ea}
+.price small{font-size:13px;color:var(--muted);font-weight:normal;text-shadow:none}
+ul{padding-left:20px;color:#e9ddf4;line-height:1.9;font-size:14px}
+button{width:100%;border:0;border-radius:13px;padding:15px;background:linear-gradient(90deg,#7e22ce,#a855f7);color:white;font-size:15px;font-weight:800;letter-spacing:.5px;margin-top:12px}
+button:disabled{opacity:.8}
+.note{font-size:12px;color:#c6b5d5;line-height:1.5;margin-top:16px}
+.lock{margin-top:18px;border:1px dashed #7542a0;border-radius:14px;padding:15px;text-align:center;color:#cdb9df;background:#100b18}
+.lock strong{display:block;color:#ead8ff;margin-bottom:5px}
+footer{text-align:center;color:#887a98;font-size:11px;margin-top:22px;line-height:1.6}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="logo">FF BUG STORE</div>
+  <div class="tag">PREDEFINIÇÕES FREE FIRE</div>
+</header>
+<section class="card">
+  <span class="pill">PACOTE ÚNICO</span>
+  <h1>Pacote de predefinições</h1>
+  <p class="desc">Um pacote com as 5 predefinições cadastradas na loja.</p>
+  <div class="price">R$ 0,50 <small>pagamento único</small></div>
+  <ul>
+    <li>5 predefinições no pacote inicial</li>
+    <li>Área de acesso para compradores</li>
+    <li>Instruções para copiar os códigos</li>
+  </ul>
+  <button disabled>COMPRA AINDA NÃO CONFIGURADA</button>
+  <div class="lock">
+    <strong>🔒 Códigos protegidos</strong>
+    Os códigos não são exibidos nesta página pública.
+    O acesso só poderá ser liberado depois que um sistema confirmar o pagamento.
+  </div>
+  <p class="note">Esta é uma demonstração visual. Ainda não recebe pagamentos nem envia links automaticamente.</p>
+</section>
+<footer>FF BUG STORE • Página demonstrativa<br>Free Fire é uma marca de terceiros. Esta página não é afiliada à Garena.</footer>
+</main>
+</body>
+</html>
